@@ -27,3 +27,6 @@ class Solution(object):
         right = self.checkBST(root.right, root.val, high)
         return root.val > low and root.val < high and left and right
 ```
+
+## Reference
+- http://siawyoung.com/coding/python/iterative-tree-traversals-python.html
